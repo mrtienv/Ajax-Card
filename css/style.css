@@ -1,0 +1,86 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #d9d5d3;
+}
+body
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #26282b;
+}
+#container
+{
+    height: 480px;
+    width: 300px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: inset 3px 3px 5px #ffffff14, inset -3px -3px 5px #00000059;
+}
+#image
+{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    left: calc( 50% - 60px);
+    top: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(#cd2a12, #ed560d);
+}
+#image #profileImage
+{
+    height: 114px;
+    width: 114px;
+    border-radius: 50%;
+}
+#info
+{
+    height: 220px;
+    width: 300px;
+    position: absolute;
+    top: 175px;
+    padding: 10px 25px;
+}
+#info #name,#city
+{
+    text-align: center;
+    margin: 3px 0px;
+    font-size: 18px;
+}
+#gender
+{
+    margin: 25px 0 0 0;
+}
+.data
+{
+    font-size: 15px;
+    margin: 3px 0px;
+}
+span
+{
+    font-size: 20px;
+}
+#email
+{
+    font-size: 10px;
+}
+#generate
+{
+    height: 50px;
+    width: 260px;
+    background: linear-gradient(to left, #cd2a12, #ed560d);
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 3px 3px 5px #ffffff36, inset -3px -3px 5px #00000059;
+}
